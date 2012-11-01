@@ -2,13 +2,13 @@
 /*
 Plugin Name: Access Consciousness TM
 Plugin URI: http://wordpress.org/extend/plugins/access-consciousness-tm/
-Description: Searches for Access Consiousness(tm) trademarked terms to add a TM suffix.
+Description: Searches for Access Consiousness(tm) trademarked terms and adds a TM suffix.
 Version: 1.0
 Author: Jean-Sebastien Morisset
 Author URI: http://surniaulula.com/
 
-This plugin searches content and title text for Access Consiousness(tm)
-trademarked terms (French and English) to add a TM suffix. The suffix is
+This plugin searches content and titles for Access Consiousness(tm)
+trademarked terms (French and English) and adds a TM suffix. The suffix is
 wrapped within an HTML span tag with an id of "TM". As an example, you can use
 the following CSS to position and size the suffix text.
 
