@@ -39,6 +39,10 @@ This plugin searches content and titles for Access Consiousness&trade; trademark
 
 == Changelog ==
 
+= v1.1 =
+* Changed add_action to add_filter.
+* Added a filter for the_excerpt as well.
+
 = v1.0 =
 * Initial release.
 

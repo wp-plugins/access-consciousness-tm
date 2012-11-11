@@ -3,7 +3,7 @@
 Plugin Name: Access Consciousness TM
 Plugin URI: http://wordpress.org/extend/plugins/access-consciousness-tm/
 Description: Searches for Access Consiousness(tm) trademarked terms and adds a TM suffix.
-Version: 1.0
+Version: 1.1
 Author: Jean-Sebastien Morisset
 Author URI: http://surniaulula.com/
 
@@ -33,11 +33,12 @@ add_action( 'admin_init', 'ac_tm_requires' );
 add_action( 'init', 'ac_tm_init' );
 
 function ac_tm_init() {
-	if (!is_admin()) {
-		add_action( 'the_title', 'ac_tm_title' );
-		add_action( 'the_content', 'ac_tm_content' );
-		add_action( 'link_name', 'ac_tm_link' );
-		add_action( 'link_description', 'ac_tm_link' );
+	if ( ! is_admin() ) {
+		add_filter( 'the_title', 'ac_tm_content' );
+		add_filter( 'the_excerpt', 'ac_tm_content' );
+		add_filter( 'the_content', 'ac_tm_content' );
+		add_filter( 'link_name', 'ac_tm_link' );
+		add_filter( 'link_description', 'ac_tm_link' );
 	}
 }
 
@@ -51,10 +52,6 @@ function ac_tm_requires() {
 			wp_die( '"'.$plugin_data['Name'].'" requires WordPress 3.0 or higher and has been deactivated. Please upgrade WordPress and try again.<br /><br />Back to <a href="'.admin_url().'">WordPress admin</a>.' );
 		}
 	}
-}
-
-function ac_tm_title( $content ) { 
-	return ac_tm_replace( '<span id="TM">TM</span>', $content );
 }
 
 function ac_tm_content( $content ) { 
