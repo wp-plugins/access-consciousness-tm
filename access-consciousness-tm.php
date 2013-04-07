@@ -1,21 +1,13 @@
 <?php
 /*
 Plugin Name: Access Consciousness TM
-Plugin URI: http://wordpress.org/extend/plugins/access-consciousness-tm/
+Plugin URI: http://surniaulula.com/wordpress-plugins/access-consciousness-tm/
 Description: Searches for Access Consiousness(tm) trademarked terms and adds a TM suffix.
 Version: 1.1
 Author: Jean-Sebastien Morisset
 Author URI: http://surniaulula.com/
 
-This plugin searches content and titles for Access Consiousness(tm)
-trademarked terms (French and English) and adds a TM suffix. The suffix is
-wrapped within an HTML span tag with an id of "TM". As an example, you can use
-the following CSS to position and size the suffix text.
-
-	#TM { vertical-align:super; font-size:0.5em; }
-	h1 #TM { font-size:0.3em; }
-
-Copyright 2012 Jean-Sebastien Morisset (http://surniaulula.com/)
+Copyright 2012 - Jean-Sebastien Morisset - http://surniaulula.com/
 
 This script is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
@@ -26,7 +18,6 @@ This script is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 PARTICULAR PURPOSE. See the GNU General Public License for more details at
 http://www.gnu.org/licenses/.
-
 */
 
 add_action( 'admin_init', 'ac_tm_requires' );
