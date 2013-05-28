@@ -1,10 +1,11 @@
 === Access Consciousness TM ===
 Contributors: jsmoriss
+Donate link: http://surniaulula.com/wordpress-plugins/contribution-form/
 Tags: access conciousness, trademark, suffix
+License: GPLv2 or later
 Requires at least: 3.0
 Tested up to: 3.4.2
 Stable tag: 1.1
-License: GPLv2 or later
 
 Searches for Access Consiousness&trade; trademarked terms and adds a TM suffix.
 

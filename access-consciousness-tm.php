@@ -2,10 +2,10 @@
 /*
 Plugin Name: Access Consciousness TM
 Plugin URI: http://surniaulula.com/wordpress-plugins/access-consciousness-tm/
-Description: Searches for Access Consiousness(tm) trademarked terms and adds a TM suffix.
-Version: 1.1
 Author: Jean-Sebastien Morisset
 Author URI: http://surniaulula.com/
+Description: Searches for Access Consiousness(tm) trademarked terms and adds a TM suffix.
+Version: 1.1
 
 Copyright 2012 - Jean-Sebastien Morisset - http://surniaulula.com/
 
