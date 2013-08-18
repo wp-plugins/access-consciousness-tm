@@ -7,11 +7,11 @@ Requires at least: 3.0
 Tested up to: 3.5.1
 Stable tag: 1.1
 
-Searches for Access Consiousness&trade; trademarked terms and adds a TM suffix.
+Searches for Access Consciousness&trade; trademarked terms and adds a TM suffix.
 
 == Description ==
 
-This plugin searches content and titles for Access Consiousness&trade; trademarked terms (French and English) and adds a TM suffix. The suffix is wrapped within an HTML span tag with an id of "TM". As an example, you can use the following CSS to position and size the suffix text.
+This plugin searches content and titles for Access Consciousness&trade; trademarked terms (French and English) and adds a TM suffix. The suffix is wrapped within an HTML span tag with an id of "TM". As an example, you can use the following CSS to position and size the suffix text.
 
 `
 	#TM { vertical-align:super; font-size:0.5em; }

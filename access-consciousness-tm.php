@@ -5,7 +5,7 @@ Plugin URI: http://surniaulula.com/wordpress-plugins/access-consciousness-tm/
 Author: Jean-Sebastien Morisset
 Author URI: http://surniaulula.com/
 Description: Searches for Access Consiousness(tm) trademarked terms and adds a TM suffix.
-Version: 1.1
+Version: 1.2
 
 Copyright 2012 - Jean-Sebastien Morisset - http://surniaulula.com/
 
@@ -60,7 +60,7 @@ function ac_tm_replace( $tm, $text ) {
 		'/(^|[^"\'])(Access Consciousness(<\/[aA]>)?)([^"\']|$)/',
 		'/(^|[^"\'])((Access B|The B)[aA][rR][sS](<\/[aA]>)?)([^"\']|$)/',
 		# French
-		'/(^|[^"\'])(Barres d(\'|&#039;|&#8217;|&rsquo;)Accès(<\/[aA]>)?)([^"\']|$)/',
+		'/(^|[^"\'])(Barres d(\'|\’|&#039;|&#8217;|&rsquo;)[Aa]ccès(<\/[aA]>)?)([^"\']|$)/',
 		'/(^|[^"\'])(Les Barres(<\/[aA]>)?)(([^"\']|$)?( [^d]))/',
 	);
 	$replace = array(
