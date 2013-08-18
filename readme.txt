@@ -1,21 +1,28 @@
-=== Access Consciousness TM ===
+=== Access Consciousness (R) ===
 Contributors: jsmoriss
 Donate link: http://surniaulula.com/extend/plugins/contribution-form/
 Tags: access conciousness, trademark, suffix
 License: GPLv2 or later
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 1.2
+Tested up to: 3.6
+Stable tag: 2.0
 
-Searches for Access Consciousness&trade; trademarked terms and adds a TM suffix.
+Searches for Access Consciousness&reg; registered trademark terms and appends an &reg; suffix.
 
 == Description ==
 
-This plugin searches content and titles for Access Consciousness&trade; trademarked terms (French and English) and adds a TM suffix. The suffix is wrapped within an HTML span tag with an id of "TM". As an example, you can use the following CSS to position and size the suffix text.
+This plugin searches content, excerpt, titles, link names, and link descriptions for Access Consciousness&reg; registered trademark terms (French and English) and appends a &reg; suffix. The suffix is wrapped within an HTML span tag with a class name of "acreg". As an example, you can use the following CSS to position and size the suffix text.
 
 `
-	#TM { vertical-align:super; font-size:0.5em; }
-	h1 #TM { font-size:0.3em; }
+.acreg {
+        vertical-align:top;
+        font-weight:normal;
+        font-size:0.8em;
+}
+h1 .acreg, h2 .acreg, h3 .acreg, h4 .acreg {
+        font-weight:normal;
+        font-size:0.7em;
+}
 `
 
 == Installation ==
@@ -25,7 +32,7 @@ This plugin searches content and titles for Access Consciousness&trade; trademar
 1. Login to your weblog
 1. Go to Plugins
 1. Select Add New
-1. Search for *NextGEN Facebook*
+1. Search for *Access Consciousness*
 1. Select Install
 1. Select Install Now
 1. Select Activate Plugin
@@ -39,6 +46,11 @@ This plugin searches content and titles for Access Consciousness&trade; trademar
 == Frequently Asked Questions ==
 
 == Changelog ==
+
+= v2.0 =
+
+* Changed the &trade; trademark HTML entity for the &reg; registered trademark.
+* **Renamed the CSS id name of "TM" for a class name of "acreg".**
 
 = v1.1 =
 * Changed add_action to add_filter.

@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Access Consciousness TM
+Plugin Name: Access Consciousness (R)
 Plugin URI: http://surniaulula.com/wordpress-plugins/access-consciousness-tm/
 Author: Jean-Sebastien Morisset
 Author URI: http://surniaulula.com/
-Description: Searches for Access Consiousness(tm) trademarked terms and adds a TM suffix.
-Version: 1.2
+Description: Searches for Access Consiousness(r) trademarked terms and appends an (r) suffix.
+Version: 2.0
 
 Copyright 2012 - Jean-Sebastien Morisset - http://surniaulula.com/
 
@@ -20,20 +20,20 @@ PARTICULAR PURPOSE. See the GNU General Public License for more details at
 http://www.gnu.org/licenses/.
 */
 
-add_action( 'admin_init', 'ac_tm_requires' );
-add_action( 'init', 'ac_tm_init' );
+add_action( 'admin_init', 'acreg_requires' );
+add_action( 'init', 'acreg_init' );
 
-function ac_tm_init() {
+function acreg_init() {
 	if ( ! is_admin() ) {
-		add_filter( 'the_title', 'ac_tm_content' );
-		add_filter( 'the_excerpt', 'ac_tm_content' );
-		add_filter( 'the_content', 'ac_tm_content' );
-		add_filter( 'link_name', 'ac_tm_link' );
-		add_filter( 'link_description', 'ac_tm_link' );
+		add_filter( 'the_title', 'acreg_html' );
+		add_filter( 'the_excerpt', 'acreg_html' );
+		add_filter( 'the_content', 'acreg_html' );
+		add_filter( 'link_name', 'acreg_text' );
+		add_filter( 'link_description', 'acreg_text' );
 	}
 }
 
-function ac_tm_requires() {
+function acreg_requires() {
 	global $wp_version;
 	$plugin = plugin_basename( __FILE__ );
 	$plugin_data = get_plugin_data( __FILE__, false );
@@ -45,16 +45,15 @@ function ac_tm_requires() {
 	}
 }
 
-function ac_tm_content( $content ) { 
-	return ac_tm_replace( '<span id="TM">TM</span>', $content );
+function acreg_html( $text ) { 
+	return acreg_replace( '<span class="acreg">&reg</span>', $text );
 }
 
-// link_names cannot contain html tags, so use the ampersand code instead.
-function ac_tm_link( $content ) { 
-	return ac_tm_replace( '&trade;', $content );
+function acreg_text( $text ) { 
+	return acreg_replace( '&reg;', $text );
 }
 
-function ac_tm_replace( $tm, $text ) {
+function acreg_replace( $char, $text ) {
 	$pattern = array(
 		# English
 		'/(^|[^"\'])(Access Consciousness(<\/[aA]>)?)([^"\']|$)/',
@@ -64,10 +63,10 @@ function ac_tm_replace( $tm, $text ) {
 		'/(^|[^"\'])(Les Barres(<\/[aA]>)?)(([^"\']|$)?( [^d]))/',
 	);
 	$replace = array(
-		'$1$2'.$tm.'$4',
-		'$1${3}ars$4'.$tm.'$5',
-		'$1$2'.$tm.'$5',
-		'$1$2'.$tm.'$4',
+		'$1$2'.$char.'$4',
+		'$1${3}ars$4'.$char.'$5',
+		'$1$2'.$char.'$5',
+		'$1$2'.$char.'$4',
 	);
 	ksort($pattern);
 	ksort($replace);
