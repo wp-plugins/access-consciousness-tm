@@ -25,7 +25,7 @@ This plugin searches content and titles for Access Consiousness&trade; trademark
 1. Login to your weblog
 1. Go to Plugins
 1. Select Add New
-1. Search for *NextGEN Facebook*
+1. Search for *Access Consciousness*
 1. Select Install
 1. Select Install Now
 1. Select Activate Plugin
