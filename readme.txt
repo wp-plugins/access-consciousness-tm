@@ -5,7 +5,7 @@ Tags: access conciousness, trademark, suffix
 License: GPLv2 or later
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 1.1
+Stable tag: 1.2
 
 Searches for Access Consciousness&trade; trademarked terms and adds a TM suffix.
 
