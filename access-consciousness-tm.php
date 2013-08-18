@@ -4,7 +4,7 @@ Plugin Name: Access Consciousness (R)
 Plugin URI: http://surniaulula.com/wordpress-plugins/access-consciousness-tm/
 Author: Jean-Sebastien Morisset
 Author URI: http://surniaulula.com/
-Description: Searches for Access Consciousness&reg; registered trademark terms and appends an &reg; suffix.
+Description: Searches for Access Consciousness&reg; registered trademark terms and appends the &reg; suffix.
 Version: 2.0
 
 Copyright 2012 - Jean-Sebastien Morisset - http://surniaulula.com/

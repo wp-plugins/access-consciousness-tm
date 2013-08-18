@@ -7,11 +7,11 @@ Requires at least: 3.0
 Tested up to: 3.6
 Stable tag: 2.0
 
-Searches for Access Consciousness&reg; registered trademark terms and appends an &reg; suffix.
+Searches for Access Consciousness&reg; registered trademark terms and appends the &reg; suffix.
 
 == Description ==
 
-This plugin searches content, excerpt, titles, link names, and link descriptions for Access Consciousness&reg; registered trademark terms (French and English) and appends an &reg; suffix. The suffix is wrapped within an HTML span tag with a class name of "acreg". As an example, you can use the following CSS to position and size the suffix text.
+This plugin searches content, excerpt, titles, link names, and link descriptions for Access Consciousness&reg; registered trademark terms (French and English) and appends the &reg; suffix. The suffix is wrapped within an HTML span tag with a class name of "acreg". As an example, you can use the following CSS to position and size the suffix text.
 
 `
 .acreg {
