@@ -1,6 +1,5 @@
 === Access Consciousness (R) ===
 Contributors: jsmoriss
-Donate link: http://surniaulula.com/extend/plugins/contribution-form/
 Tags: access conciousness, trademark, suffix
 License: GPLv2 or later
 Requires at least: 3.0
