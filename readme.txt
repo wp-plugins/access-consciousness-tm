@@ -3,7 +3,7 @@ Contributors: jsmoriss
 Tags: access conciousness, trademark, suffix
 License: GPLv2 or later
 Requires at least: 3.0
-Tested up to: 3.6
+Tested up to: 3.9.1
 Stable tag: 2.0
 
 Searches for Access Consciousness&reg; registered trademark terms and appends the &reg; suffix.
@@ -39,7 +39,7 @@ h1 .acreg, h2 .acreg, h3 .acreg, h4 .acreg {
 *Manual*
 
 1. Download and unzip the plugin
-1. Upload the entire access-consciousness-tm/ folder to the /wp-content/plugins/ directory
+1. Upload the entire `access-consciousness-tm/` folder to the `wp-content/plugins/` directory
 1. Activate the plugin through the Plugins menu in WordPress
 
 == Frequently Asked Questions ==
@@ -49,12 +49,14 @@ h1 .acreg, h2 .acreg, h3 .acreg, h4 .acreg {
 = v2.0 =
 
 * Changed the &trade; trademark HTML entity for the &reg; registered trademark.
-* **Renamed the CSS id name of "TM" for a class name of "acreg".**
+* **Renamed the CSS id name of "TM" to a class name of "acreg".**
 
 = v1.1 =
+
 * Changed add_action to add_filter.
 * Added a filter for the_excerpt as well.
 
 = v1.0 =
+
 * Initial release.
 
