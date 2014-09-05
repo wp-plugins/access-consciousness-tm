@@ -1,10 +1,11 @@
 === Access Consciousness (R) ===
 Contributors: jsmoriss
 Tags: access conciousness, trademark, suffix
-License: GPLv2 or later
-Requires at least: 3.0
-Tested up to: 3.9.1
-Stable tag: 2.0
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl.txt
+Requires At Least: 3.0
+Tested Up To: 4.0
+Stable Tag: 2.0
 
 Searches for Access Consciousness&reg; registered trademark terms and appends the &reg; suffix.
 
