@@ -4,7 +4,7 @@ Tags: access conciousness, trademark, suffix
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
 Requires At Least: 3.0
-Tested Up To: 4.0.1
+Tested Up To: 4.1.1
 Stable Tag: 2.0
 
 Searches for Access Consciousness&reg; registered trademark terms and appends the &reg; suffix.
