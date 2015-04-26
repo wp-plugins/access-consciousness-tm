@@ -1,7 +1,7 @@
 <h1>Access Consciousness (R)</h1>
 
 <table>
-<tr><th align="right" valign="top" nowrap>Description Summary</th><td>Searches for Access Consciousness&reg; registered trademark terms and appends the &reg; suffix.</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>Searches for Access Consciousness&reg; registered trademark terms and appends the &reg; suffix.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>2.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 4.1.1</td></tr>
