@@ -8,10 +8,10 @@
  * License URI: http://www.gnu.org/licenses/gpl.txt
  * Description: Searches for Access Consciousness&reg; registered trademark terms and appends the &reg; suffix.
  * Requires At Least: 3.0
- * Tested Up To: 4.2.2
+ * Tested Up To: 4.2.4
  * Version: 2.0
  * 
- * Copyright 2012 - Jean-Sebastien Morisset - http://surniaulula.com/
+ * Copyright 2012-2015 - Jean-Sebastien Morisset - http://surniaulula.com/
  * 
  * This script is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software
